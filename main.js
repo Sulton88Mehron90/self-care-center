@@ -2,12 +2,13 @@
 
 var homeBtn = document.querySelector('#btn-home');
 var receiveMessageBtn = document.querySelector('#btn-receive-msg');
-var collectionBtn = document.querySelector('#btn-collection');
+var addMessageBtn = document.querySelector('#btn-collection');
 var createBtn = document.querySelector('#btn-create');
 var editBtn = document.querySelector('#btn-edit');
 var createAffBtn = document.querySelector('#btn-create-aff');
 var createManBtn = document.querySelector('#btn-create-man');
 var affirmationRb = document.querySelector('#rb-affirmation');
+var affirmationList = document.querySelector('#affirmation-list');
 var mantraRb = document.querySelector('#rb-mantra');
 var messageDisplay = document.querySelector('#message-display');
 var homeSection = document.querySelector('#main-section');
@@ -16,7 +17,7 @@ var homeSection = document.querySelector('#main-section');
 
 window.addEventListener('load', displayMessages);
 homeBtn.addEventListener('click', goHome);
-collectionBtn.addEventListener('click', goToCreateYourOwn);
+addMessageBtn.addEventListener('click', goToAddMessage);
 createAffBtn.addEventListener('click', addNewMessage);
 createManBtn.addEventListener('click', addNewMessage);
 createBtn.addEventListener('click', toggleCreateMessage);
@@ -60,13 +61,17 @@ function displayMessages() {
     }
 }
 
-
 function goHome() {
-  
+  homeSection.classList.remove('hidden');
+  messageDisplay.classList.remove('hidden');
+  receiveMessageBtn.classList.remove('hidden');
 };
 
-function goToCreateYourOwn() {
-   homeSection.classList.add('hidden');
+function goToAddMessage() {
+//    receiveMessageBtn.classList.add('hidden');
+   homeSection.classList.remove('hidden');
+//    messageDisplay.classList.add('hidden');
+//    messageDisplay.innerHTML = `<p>${currentMessage.msg}</p>`;
 };
 
 function toggleCreateMessage() {
