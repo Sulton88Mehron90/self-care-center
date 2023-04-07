@@ -4,38 +4,55 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <header>
-      <h1>✨ Self Care Center ✨</h1>
-      <!-- <nav>
-        <button id="btn-home">Home</button>
-        <button id="btn-collection">All Messages</button>
-      </nav> -->
-    </header>
-    <section class="main-section" id="main-section">
-      <h2>Which type of message?</h2>
-      <form class="receive-message-form card">
-        <div class="radio-group">
-          <div>
-            <input type="radio" id="rb-affirmation" name="message-type" checked>
-            <label for="rb-affirmation">affirmation</label>
-          </div>
-          <div>
-            <input type="radio" id="rb-mantra" name="message-type">
-            <label for="rb-mantra">mantra</label>
-          </div>
+<body>
+  <header>
+    <h1>✨ Self Care Center ✨</h1>
+    <nav>
+      <button id="btn-home">Home</button>
+      <button id="btn-collection">Create Your Own</button>
+    </nav>
+  </header>
+  <section class="main-section" id="main-section">
+    <h2>Which type of message?</h2>
+    <form class="receive-message-form card">
+      <div class="radio-group">
+        <div>
+          <input type="radio" id="rb-affirmation" name="message-type" checked>
+          <label for="rb-affirmation">affirmation</label>
         </div>
-        <button id="btn-receive-msg">Receive Message</button>
-      </form>
-      <aside id="message-display" class="message-display card">
-        <img src="assets/meditate.svg" alt="budda statue meditating">
-      </aside>
-    </section>
-    
-
-      
-
-    <script type="text/javascript" src="main.js"></script>
-    <script type="text/javascript" src="affmant.js"></script>
-  </body>
+        <div>
+          <input type="radio" id="rb-mantra" name="message-type">
+          <label for="rb-mantra">mantra</label>
+        </div>
+      </div>
+      <button id="btn-receive-msg">Receive Message</button>
+    </form>
+    <aside id="message-display" class="message-display card">
+      <img src="assets/meditate.svg" alt="buddha meditation pose">
+    </aside>
+  </section>
+    <div class="collection-center">
+      <div>
+        <h2></h2>
+        <button id="btn-create"></button>
+        <form class="create-message-form card hidden" id="create-message-form">
+          <label>New Message</label>
+          <textarea id="create-message-ta"></textarea>
+          <div>
+            <button id="btn-create-aff">←</button>
+            <button id="btn-create-man">→</button>
+          </div>
+        </form>
+      </div>
+      <div>
+        <h2></h2>
+        <button id="btn-edit"></button>
+        <form class="create-message-form card hidden" id="edit-message-form">
+          <label>Edit Message</label>
+          <textarea id="edit-message-ta"></textarea>
+        </form>
+      </div>
+  <script type="text/javascript" src="affmant.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
 </html>
