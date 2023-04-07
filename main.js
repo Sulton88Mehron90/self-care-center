@@ -35,13 +35,13 @@ receiveMessageBtn.addEventListener('click', function (event) {
 });
 
 function getMessage(type) {
-    var filtered = [];
+    var filteredMessage = [];
     for(var i = 0; i < messages.length; i++){
         if(messages[i].type === type){
-            filtered.push(messages[i]);
+            filteredMessage.push(messages[i]);
         };
     };
-    return filtered[getRandomIndex(filtered)];
+    return filteredMessage[getRandomIndex(filteredMessage)];
 };
 
 function getRandomIndex(array) {
