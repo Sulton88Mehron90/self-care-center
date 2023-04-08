@@ -1,3 +1,5 @@
+//Related DOM elements.
+ 
   //Radio Buttons and Receive Message element:
 var hideRBRM = document.querySelector(".rbrm-buttons");
 var affirmationButton = document.querySelector(".first-rdButton");
@@ -8,7 +10,7 @@ var receiveMessageButton = document.querySelector(".message-button");
 var yourMessageButton = document.querySelector(".add-message-button");
 var displayUserText = document.querySelector(".userMsg");
 
-  // Form elements
+  // Form elements:
 var userForm = document.querySelector(".view-form");
 var userSubmitButton = document.querySelector(".submit-your-message");
 var userAffirmationMsg = document.querySelector(".user-affirmation");
