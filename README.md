@@ -18,7 +18,7 @@ If someone chooses to run this app. Plese follow the steps below:
 
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
-Self-Care-Center is a solo project that was assigned Tuesday evening. Finished it Sunday morning. I am now through my third week of Mod 1 with 2303 cohort.
+Self-Care-Center is a solo project that was assigned Tuesday evening. Finished it Sunday morning. I am a repeater and am now through my third week of Mod 1 with 2303 cohort.
 
 <!-- ### Contributors:
 [//]: <> (Who worked on this application? Link to their GitHubs.) -->
