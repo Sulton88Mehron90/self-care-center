@@ -4,8 +4,51 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
   </head>
-  <body>
-  
+  <body class="page">
+    <header> 
+      <h1>✨ Self Care Center ✨</h1>
+      <div class="add-your-message-button">
+        <button class="add-message-button"type="submit">Add ✨ Your ✨ Message</button>
+      </div>  
+    </header>
+    <section class="small-header">
+      <h2>Which type of message?</h2>
+    </section>
+    <section class="parent">
+      <div class="rbrm-buttons">
+        <div class="rb-buttons">
+          <div class="affirmation">
+           <input class="first-rdButton"type="radio" name="message" value="affirmation"/>
+           <label for="first-rdbButton">affirmation</label>
+          </div>
+          <div class="mantra">
+           <input class="second-rdButton "type="radio" name="message" value="mantra"/>
+           <label for="second-rdButton">mantra</label>
+          </div>
+          </div>
+          <div class="receive-message-button">
+           <button class="message-button"type="submit">Receive Message</button>
+          </div>
+        </div>
+      </div>
+      <section class="meditate">
+       <img class="logo" src="assets/meditate.svg" alt="buddha meditation pose"/>
+       <p class="userMsg"></p>
+       <section class="view-form hidden">
+         <form>
+          <input class="user-affbutton" type="radio" name="user-message" value="affirmation"/>
+          <label for="affirmation">Affirmation</label>
+          <input class="user-affirmation"type="text"id="user-affirmation"/>
+          <input class="user-manbutton" type="radio" name="user-message" value="mantra"/>
+          <label for="mantra">Mantra</label>
+          <input class="user-mantra"type="text"id="user-mantra"/>
+         </form>
+         <div class="submit-button">
+           <button class="submit-your-message"type="submit">❤️ Submit</button>
+         </div>
+       </section>
+     </section>
+    </section>
     <script type="text/javascript" src="main.js"></script>
   </body>
 </html>

@@ -6,3 +6,115 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+
+html {
+  background: linear-gradient(180deg,#134d71 13%,#78a7c6 30%,#f7e4bf);
+  height: 950px;
+ }
+
+h1 {
+  padding:50px ; 
+  border:50px;
+  text-align: center; 
+  color: white;   
+}
+
+label {
+  color: black;
+}
+
+.small-header { 
+  display:flex;
+  justify-content: center;
+  color: white;
+}
+
+ .logo {
+   height: 100px;
+   width: 100px;    
+ }
+
+ .parent {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .rbrm-buttons {
+  background-color: white;
+  width:28%;
+  height: 99px;
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+ }
+ 
+ .add-your-message-button {
+  display:flex;
+  justify-content: center;
+ }
+
+ .add-message-button {
+  color:white;
+  background-color: #134d71;
+  border-radius: 10px;
+  font-size:smaller
+ }
+
+ .submit-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+ }
+
+ .submit-your-message {
+  color:white;
+  background-color: #134d71;
+  border-radius: 10px;
+ }
+
+.rb-buttons {
+  font-style: italic;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  float: left;
+ } 
+
+  .receive-message-button {
+  display:flex;
+  justify-content: center;
+ }  
+
+ .message-button{
+  background-color:#134d71;
+  font-size: large;
+  color: white; 
+  border-radius: 10px;
+ }
+
+ .meditate {
+  background-color: white;
+  width: 55%;
+  border-radius: 10px;
+  height:175px;
+  margin: 100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ } 
+
+.userMsg {
+  color:black
+}
+ 
+.hidden{
+  display: none;
+}
