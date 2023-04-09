@@ -9,7 +9,7 @@ If someone chooses to run this app. Plese follow the steps below:
  - Clone the repository to your local machine
  - `cd` into the project
  - Run the app from your VS code
- - Run `open index.html` to automatically open the site in your browser
+ - Or run `open index.html` to automatically open the site in your browser
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
