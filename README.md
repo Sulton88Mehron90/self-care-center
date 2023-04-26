@@ -4,6 +4,9 @@
 This is a functional website where you can enter, and choose whether you want to see an affirmation or mantra that can be viewed if you click the "Receive Message" button to get a random affirmation and mantra from the website. Also if you choose to create your own mantra and affirmation, it is possible to do here! Click the "Add your Message" button to do that. Your entered affirmation or mantra will be added to the array of affirmation and mantras within the code. When going through the list, your messages will appear from the array list. Working on this project helped not only to gain experience using HTML, CSS, and Javascript. Also, reading the affirmation and mantras helped me a great deal. It truly was God sent, considering the difficult time I am going through in my life right now. I am grateful for the opportunity and the inspiring affirmations and mantras that I've read many times during the project.
 
 ### Installation Instructions:
+##### Run via web:
+[Click Here to Launch](https://sulton88mehron90.github.io/self-care-center/)
+##### Run local:
 If someone chooses to run this app. Plese follow the steps below:
  - Fork this project to your own Github account
  - Clone the repository to your local machine
