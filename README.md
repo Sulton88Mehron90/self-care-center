@@ -16,9 +16,7 @@ If someone chooses to run this app. Plese follow the steps below:
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
-
-  ![Self Care Center](https://github.com/Sulton88Mehron90/self-care-center/blob/finalising/assets/ezgif.com-gif-maker.gif)
-
+![Self Care Center](https://github.com/Sulton88Mehron90/self-care-center/blob/main/assets/ezgif.com-gif-maker.gif)
 
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
